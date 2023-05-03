@@ -1,0 +1,27 @@
+CREACIÓN DE BASE DE DATOS 
+
+
+- spadm_schema_database.sql
+En este archivo se encuentra el script de creación de la base de datos.
+
+- spadm_schema_tables_data.sql
+En este archivo se encuentra el script de creación de tablas de la base de datos y los datos para las tablas creadas.
+
+
+En DBeaver
+
+1- Se debe ejecutar primero el script spadm_schema_database.sql.
+2- Luego seleccionar esta base de datos creada como default.
+3- Se debe ejecutar el script spadm_schema_tables_data.sql.
+
+Listo.
+
+
+
+En PgAdmin4
+
+1- Se crea la base de datos manual con el nombre spadm_schema, según los parametros de la sentencia sql create_Database del script spadm_schema_database.sql.
+2- Se ejecuta el script spadm_schema_tables_data.sql.
+
+Listo
+
